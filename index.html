@@ -2,71 +2,78 @@
 <html lang="es" dir="ltr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="utf-8">
   <title>Cafetería Agere</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta name:"viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dani">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <!--Bootstrap navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-    <div class="navbar__container container-fluid py-2">
-      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="Logo Cafetería Agere"
-          class="navbar__logo" /></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar__links navbar-nav">
-          <a class="navbar__item nav-item nav-link" href="#">Acerca de</a>
-          <a class="navbar__item nav-item nav-link" href="#">Tienda</a>
+  <nav class="navbar navbar-expand-lg bg-color fixed-top">
+    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="nav-img" alt="logo"></a>
+    <a class="nav-link" href="#">Acerca de</a>
+    <a class="nav-link" href="#">Tienda</a>
+    <div class="ml-auto">
+      <button class="button-nav-one" type="button" name="button">Iniciar sesión</button>
+      <button class="button-nav-two" type="button" name="button">Registrarse</button>
+    </div>
+    </nav>
+
+    <header class="header">
+        <div class="row">
+          <div class="header__img col-9">
+            <img src="assets/img/img-1.png" class="header-img" alt="">
+          </div>
+          <div class="header__agare col-2">
+            <h1 class="header__agare--titulo"> Café Agere</h1>
+            <p class="header__agare--shop">Coffe Shop</p>
+          </div>
+      <div class="header__cuentas">
+            <div>
+              <h3 class="header__cuentas--titulo">+50</h3>
+              <p class="header__cuentas-texto">Variedades en café</p>
+            </div>
+          <div> 
+            <h3 class="header__cuentas--titulo">20</h3>
+            <p class="header__cuentas--texto">Países Diferentes</p>
+          </div>
+          <div>
+            <h3 class="header__cuentas--titulo">+1000</h3>
+            <p class="header__cuentas--texto">Accesorios para</p> <p> hacer el mejor café</p>
+          </div>
         </div>
-        <div class="navbar__buttons">
-          <button class="navbar__btn navbar__btn--primary mx-3">
-            Iniciar sesión
-          </button>
-          <button class="navbar__btn navbar__btn--secondary mx-3">
-            Regístrate
-          </button>
+        <div class="header__flecha">
+            <i class="fas fa-arrow-right fa-3x"></i>
+      </div>
+        <div class="header__yellow">
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="row">
+        <div class="section__ven col-4">
+          <h2 class="section__titulo">Ven a conocernos</h2>
+          <p>Disfruta de una gran experiencia tomando un café o un té dentro de nuestra tienda o si prefieres puedes comprar en línea nuestros cafés para disfrutarlos en casa.</p>
+        </div>
+      <div class="section__img  col-3">
+        <img src="assets/img/img-4.png" class="section__img--map" alt="map">
+        <div class="section__blue">
+        </div>
+        </div>
+      <div class="section__cafe col-5">
+        <img src="assets/img/img-3.png" class="section__cafe--coff" alt="coff">
+        <div class="">
+          <img src="assets/img/img-2.png" class="section__cafe--gran" alt="gran">
         </div>
       </div>
     </div>
-  </nav>
-  <!--header-->
-  <header class="header container-fluid">
+    </section>
 
-  
-    <div class="row">
-      <div class="col-8 header__img"></div>
-      <div class="col-4 header__text">
-        <h1 class="header__title">Café Agere</h1>
-        <p class="header__subtitle">Coffee Shop</p>
-      </div>
-    </div>
-
- 
-  </header>
-  <!--main -->
-  <section class="main container-fluid">
-    <div class="row">
-      <div class="col-4 main__text">
-        <h2 class="main__title">Ven a Conocernos</h2>
-        <p class="main__p">
-          Disfruta de una gran experiencia tomando un café o un té dentro de nuestra tienda o si prefieres puedes comprar en línea nuestros cafés para disfrutarlos en tu casa.
-        </p>
-      </div>
-      <div class="col-4 main__map">
-        <img src="assets/img/img-4.png" alt="Café Agere" class="map__img" />
-      </div>
-      <div class="col-4 main__images"></div>
-    </div>
-
-
-    
-  </section>
 </body>
+
 </html>
