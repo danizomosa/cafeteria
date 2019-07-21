@@ -1,0 +1,38 @@
+.button-nav-one{
+    font-family: $mono;
+    width: 160px;
+    height: 35px;
+    border-color: $quicksilver;
+    background-color: white;
+    margin-right: 20px;
+    color:$quicksilver;
+    font-size: $medium;
+    font-weight: $light;
+    
+    &:hover{
+    border-color: $outer;
+    color:$outer
+    }
+    }
+    
+    .button-nav-two{
+
+
+    margin-right: 10px;
+    color:$white;
+    font-size: $medium;
+    font-weight: $light;
+    font-family: $mono;
+    width: 120px;
+    height: 35px;
+    background-color: $shiny;
+    border-color:$shiny;
+     
+    
+      &:hover{
+        background-color: $pastelgray;
+        color:$outer;
+        border-color: $pastelgray;
+      }
+      }
+    

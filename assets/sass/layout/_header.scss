@@ -1,0 +1,81 @@
+.header{
+    margin-top: 60px;
+    margin-bottom: -60px;
+  
+  }
+  .header-img{
+    width: 950px;
+  }
+  
+  .header__agare{
+      margin-top: 90px;
+  
+  }
+  
+  .header__agare--titulo{
+    font-family: $mono;
+    font-size: $xxx-large;
+    color:$black;
+    font-weight: $regular;
+  }
+  
+  .header__agare--shop{
+    padding-top: 10px;
+    font-size: $large;
+    color:$black;
+    font-weight: $light;
+  }
+  
+  .header__cuentas{
+    padding-top: 7px;
+    padding-left: 12px;
+    display: flex;
+    background-color: $white;
+    position: absolute;
+    width: 700px;
+    top: 430px;
+    left: 450px;
+    height: 119px;
+  }
+  
+  .header__cuentas--titulo{
+    font-family: $mono;
+    font-size:$xx-large;
+    font-weight: $regular;
+    color: $black;
+    float: left;
+  }
+  
+  .header__cuentas--texto{
+    font-size: $medium;
+    font-weight: $light;
+    color: $black;
+  
+  }
+  .header__flecha{
+    background-color:$flame;
+      padding: 50px;
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      left: 975px;
+      bottom: 110px;
+      top: 410px;
+      z-index: 1;
+  }
+  
+  .header__yellow{
+    background-color:$coral;
+      padding: 50px;
+      width: 120px;
+      height: 120px;
+      position: relative;
+      left: 1020px;
+      bottom: 95px;
+  }
+  
+  .header__flecha--img{
+    width: 70px;
+  
+  }
+  

@@ -1,0 +1,40 @@
+
+.nav-img{
+    width: 35px;
+  }
+  .bg-color{
+    background-color: $white;
+  }
+  
+  .nav-link{
+    font-family: $mono;
+    color: $quicksilver;
+    &:hover{
+      color: $black;
+    }
+  }
+  
+  .button-nav-one{
+  font-family: $mono;
+  width: 200px;
+  height: 35px;
+  border-color: $quicksilver;
+  background-color: white;
+  margin-right: 20px;
+  color:$quicksilver;
+  font-size: $medium;
+  font-weight: $light;
+  }
+  
+  .button-nav-two{
+    font-family: $mono;
+    width: 150px;
+    height: 35px;
+    background-color: $shiny;
+    border-color:$shiny;
+    margin-right: 10px;
+    color:$white;
+    font-size: $medium;
+    font-weight: $light;
+  }
+  
